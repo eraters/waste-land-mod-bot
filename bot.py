@@ -3,7 +3,7 @@ import os
 import asyncio
 from discord.ext import commands, tasks
 
-bot = commands.Bot(command_prefix="*")
+bot = commands.Bot(command_prefix="wls!")
 
 @bot.event
 async def on_ready():
